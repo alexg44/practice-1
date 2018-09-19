@@ -1,0 +1,93 @@
+
+.container {
+    border: 50px;
+    border-color: coral;
+    margin: 6px;
+    padding: 6px;
+    align-items: center;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    background-color: rgba(240, 248, 255, 0.342);
+}
+.jumbotron {
+    background-color: coral;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bold;
+    font-size: 90px;
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 7px 7px 6px gray;
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    font-family: 'Abel', sans-serif;
+    font-size: 22px;
+    color: white;
+    background-color: aliceblue;
+    
+    /* font-weight: bold; */
+}
+.btn:hover {background-color: lavenderblush;}
+
+.buttonSize {
+    width: 200px;
+    height: 150px;
+}
+
+.categories {
+    display: inline;
+    /* margin: 10px;
+    padding: 10px; */
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
